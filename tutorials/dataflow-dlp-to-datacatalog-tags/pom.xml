@@ -135,7 +135,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-datacatalog</artifactId>
-      <version>0.32.1</version>
+      <version>1.6.0</version>
     </dependency>
 
     <!-- DLP -->
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
