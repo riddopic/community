@@ -1,4 +1,4 @@
-pylint==2.6.0
+pylint==2.7.0
 google-cloud==0.34.0
 Flask==1.1.2
 google-cloud-secret-manager==2.1.0
