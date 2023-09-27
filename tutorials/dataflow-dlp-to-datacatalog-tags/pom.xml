@@ -34,7 +34,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <apache-http-client-v2>1.31.0</apache-http-client-v2>
-    <avro.version>1.8.2</avro.version>
+    <avro.version>1.9.0</avro.version>
     <checkstyle.version>8.29</checkstyle.version>
     <beam.version>2.34.0</beam.version>
     <beam-vendor-guava.version>0.1</beam-vendor-guava.version>
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
