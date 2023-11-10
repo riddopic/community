@@ -160,7 +160,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-bigquery</artifactId>
-      <version>1.116.10</version>
+      <version>2.10.9</version>
     </dependency>
 
     <!-- Misc -->
@@ -367,8 +367,7 @@
                   </filter>
                 </filters>
                 <transformers>
-                  <transformer
-                          implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
+                  <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                 </transformers>
               </configuration>
             </execution>
