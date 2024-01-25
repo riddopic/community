@@ -1,4 +1,6 @@
 locustio==0.14.6
-cryptography==3.4.7
+cryptography==41.0.6
 paho-mqtt==1.5.1
 pyjwt>=2.4.0
+gevent>=23.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.3.8 # not directly required, pinned by Snyk to avoid a vulnerability
